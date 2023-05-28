@@ -44,5 +44,5 @@ def upload_video():
 if __name__ == '__main__':
     global model_pothole, model_traffic
     model_pothole = YOLO("best.pt")
-    model_traffic = YOLO("best_traffic_2.pt")
+    model_traffic = YOLO("best_traffic.pt")
     app.run(debug=1)
