@@ -1,0 +1,1 @@
+from media_controller.controller import media_controller_blueprint
