@@ -1,4 +1,4 @@
-# Automatic Detection and Recognition of Traffic Lights and Potholes using YOLOv8# 
+# Automatic Detection and Recognition of Traffic Lights and Potholes using YOLOv8 
 # 1. Project Overview
 This project uses the You Only Look Once (YOLO) algorithm, specifically its eighth version (YOLOv8), to automatically detect and recognize traffic lights and potholes.
 # 2. Getting Started
