@@ -12,10 +12,13 @@ In order to launch the projects, you need to execute this command in the termina
 # 4. Additionally
 # Training
 1. Training the model to detect potholes:
-In order to train the appropriate model, you should go to the notebook **"pothole_train.ipynb"**.  In this notebook , you should run the code step by line. 
+In order to train the appropriate model, you should go to the notebook **"pothole_train.ipynb"** in folder **"train_models"**.  In this notebook , you should run the code step by line. 
 The results of model training can be found in:
  >    runs/detect/train
 2. Training the model to detect potholes:
-In order to train the appropriate model, you should go to the notebook **"traffic_light_train.ipynb"**.  In this notebook , you should run the code step by line. 
+In order to train the appropriate model, you should go to the notebook **"traffic_light_train.ipynb"** in folder **"train_models"**.  In this notebook , you should run the code step by line. 
 The results of model training can be found in:
 >  runs/detect/train
+# Swagger
+You can view endpoints using URL: 
+> https://app.swaggerhub.com/apis/Julia47/trafficpotholes/1.0.0
