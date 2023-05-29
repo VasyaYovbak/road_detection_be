@@ -3,7 +3,7 @@
 This project uses the You Only Look Once (YOLO) algorithm, specifically its eighth version (YOLOv8), to automatically detect and recognize traffic lights and potholes.
 # 2. Getting Started
 All commands and scripts below are for Windows.
-Clone Git repository:
+### Clone Git repository:
 This command is used to obtain a repository from an existing URL.
 >     git clone https://github.com/VasyaYovbak/road_detection_be.git
 # 3. Run the project
