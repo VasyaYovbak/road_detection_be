@@ -12,6 +12,12 @@ def get_prediction(model_pothole, model_traffic, image):
     res_plotted = results[0].plot()
 
     results = model_traffic(res_plotted)
+    boxes = []
+    for i in range(len(results[0].boxes.conf)):
+        if results[0].boxes.conf[i] >= probability_threshold:
+            boxes.append(results[0].boxes[i])
+    results[0].boxes = boxes
+
     return results
 
 

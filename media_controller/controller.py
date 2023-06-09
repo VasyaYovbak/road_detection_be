@@ -4,11 +4,17 @@ from PIL import Image
 from ultralytics import YOLO
 
 from detection import detect_image, detect_video
+import torch_directml
+
+dml = torch_directml.device()
 
 media_controller_blueprint = Blueprint('media_controller_blueprint', __name__)
 
-model_pothole = YOLO("static/best.pt")
-model_traffic = YOLO("static/best_traffic.pt")
+model_pothole = YOLO("static/best_pothole.pt")
+model_traffic = YOLO("static/best_tl.pt")
+model_pothole.to(dml)
+model_traffic.to(dml)
+
 
 
 @media_controller_blueprint.route('/api/upload-image', methods=['POST'])
