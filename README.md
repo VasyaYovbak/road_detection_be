@@ -6,6 +6,9 @@ All commands and scripts below are for Windows.
 ### Clone Git repository:
 This command is used to obtain a repository from an existing URL.
 >     git clone https://github.com/VasyaYovbak/road_detection_be.git
+### Install packages with pip: -r requirements.txt
+Use the command below to install the packages according to the configuration file **requirements.txt**.
+>     pip install -r requirements.txt
 # 3. Run the project
 In order to launch the projects, you need to execute this command in the terminal:
  >    py app.py 
